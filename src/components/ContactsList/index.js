@@ -1,1 +1,1 @@
-import { default } from './ContactsList';
+export { default } from './ContactsList';
