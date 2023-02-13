@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchContacts } from 'redux/operations';
 import { selectError, selectIsLoading } from 'redux/selectors';
 
-// import Section from './Section/Section';
 import Filter from './Filter';
 import ContactsList from './ContactsList/ContactsList';
 import ContactForm from './ContactForm/Form';

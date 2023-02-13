@@ -1,15 +1,10 @@
 import { useSelector, useDispatch } from 'react-redux';
-
 import PropTypes from 'prop-types';
-
 import { deleteContact } from 'redux/operations';
 import { selectFilteredContacts } from 'redux/selectors';
 
 export const ContactsList = () => {
   const filteredContacts = useSelector(selectFilteredContacts);
-  // const [name, setName] = useState('');
-  // const [number, setNumber] = useState('');
-  console.log(filteredContacts);
   const dispatch = useDispatch();
 
   const onDeleteContact = contactId => {
